@@ -1,0 +1,106 @@
+{
+  "hash" : "f0f9583e3b2974a632a09536fa6cd0de93829600",
+  "data" : [ {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 4,
+      "message" : "Failed: No element found using locator: By(xpath, //button[@ng-class='btnClass1'][contains(text(),'Add Customer')])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(xpath, //button[@ng-click='deleteCust(cust)'])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=69.0.3497.100)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(xpath, //button[@class='btn btn-lg tab'][contains(text(),'Open Account')])",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Adding customer information",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 4,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Login As a Bank Manager",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Login as Customer",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "OPening customer account",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Search for the customer",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Select customer",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 9,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 7,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

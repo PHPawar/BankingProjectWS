@@ -1,0 +1,44 @@
+{
+  "uid" : "cbd0eda06d7e3cfa",
+  "name" : "Customer Login Test",
+  "title" : "Customer Login Test",
+  "time" : {
+    "start" : 1539418614258,
+    "stop" : 1539418629236,
+    "duration" : 14978
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "43ace401a26a27a0",
+    "name" : "Login as Customer",
+    "title" : "Login as Customer"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "3561d69d-268c-4624-8483-ae8bb5bafcfc-attachment.png",
+    "type" : "image/png",
+    "size" : 12740,
+    "uid" : "2565a6d2dadc5ef5"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login as Customer"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login as Customer"
+  } ],
+  "parameters" : [ ]
+}

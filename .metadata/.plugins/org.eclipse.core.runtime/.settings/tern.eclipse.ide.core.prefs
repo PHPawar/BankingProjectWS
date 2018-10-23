@@ -1,0 +1,4 @@
+defaultTernModules=guess-types,outline,protractor,ecma5,browser,jasmine
+eclipse.preferences.version=1
+repositories=
+used-repository-name=default

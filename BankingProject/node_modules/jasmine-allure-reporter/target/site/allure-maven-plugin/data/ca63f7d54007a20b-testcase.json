@@ -1,0 +1,44 @@
+{
+  "uid" : "ca63f7d54007a20b",
+  "name" : "Adding customer",
+  "title" : "Adding customer",
+  "time" : {
+    "start" : 1535213128186,
+    "stop" : 1535213129649,
+    "duration" : 1463
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6b11b8ab8685963e",
+    "name" : "Adding customer information",
+    "title" : "Adding customer information"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "98bf38f3-4b21-4b11-9b1e-3dbac9a508ac-attachment.png",
+    "type" : "image/png",
+    "size" : 24684,
+    "uid" : "4e437a87f0a93d8f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Adding customer information"
+  }, {
+    "name" : "suite-title",
+    "value" : "Adding customer information"
+  } ],
+  "parameters" : [ ]
+}

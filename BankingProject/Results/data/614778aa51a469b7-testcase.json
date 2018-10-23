@@ -1,0 +1,44 @@
+{
+  "uid" : "614778aa51a469b7",
+  "name" : "Open Customer Account",
+  "title" : "Open Customer Account",
+  "time" : {
+    "start" : 1535286440057,
+    "stop" : 1535286444250,
+    "duration" : 4193
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c4598a8002f7871c",
+    "name" : "OPening customer account",
+    "title" : "OPening customer account"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "ef4eab02-4c93-4f97-97ea-804968586fe1-attachment.png",
+    "type" : "image/png",
+    "size" : 40477,
+    "uid" : "3db46685cfb3e7a4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "OPening customer account"
+  }, {
+    "name" : "suite-title",
+    "value" : "OPening customer account"
+  } ],
+  "parameters" : [ ]
+}

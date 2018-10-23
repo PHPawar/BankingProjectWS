@@ -1,0 +1,108 @@
+{
+  "hosts" : [ {
+    "title" : "default",
+    "threads" : [ {
+      "title" : "default",
+      "testCases" : [ {
+        "uid" : "47ccf169ab709847",
+        "name" : "Search for the customer",
+        "title" : "Search for the customer",
+        "time" : {
+          "start" : 1539418507681,
+          "stop" : 1539418614255,
+          "duration" : 106574
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "b09c93a305ed2566",
+        "name" : "Naviagate to Bank Manager",
+        "title" : "Naviagate to Bank Manager",
+        "time" : {
+          "start" : 1539418461686,
+          "stop" : 1539418507263,
+          "duration" : 45577
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cbd0eda06d7e3cfa",
+        "name" : "Customer Login Test",
+        "title" : "Customer Login Test",
+        "time" : {
+          "start" : 1539418614258,
+          "stop" : 1539418629236,
+          "duration" : 14978
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bb360b7e55bbfbd1",
+        "name" : "Select customer to login",
+        "title" : "Select customer to login",
+        "time" : {
+          "start" : 1539419045609,
+          "stop" : 1539419045682,
+          "duration" : 73
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "549f852cbd011ba3",
+        "name" : "Adding customer",
+        "title" : "Adding customer",
+        "time" : {
+          "start" : 1539418629238,
+          "stop" : 1539418729720,
+          "duration" : 100482
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "d1807131a05b2e28",
+        "name" : "Adding customer",
+        "title" : "Adding customer",
+        "time" : {
+          "start" : 1539418729720,
+          "stop" : 1539418830887,
+          "duration" : 101167
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "90b6dbcdee8716a5",
+        "name" : "Adding customer",
+        "title" : "Adding customer",
+        "time" : {
+          "start" : 1539418830887,
+          "stop" : 1539418931649,
+          "duration" : 100762
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "6a63883ea749a4ee",
+        "name" : "Adding customer",
+        "title" : "Adding customer",
+        "time" : {
+          "start" : 1539418931649,
+          "stop" : 1539419032349,
+          "duration" : 100700
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "61e82b9c01cb8bf6",
+        "name" : "Open Customer Account",
+        "title" : "Open Customer Account",
+        "time" : {
+          "start" : 1539419032355,
+          "stop" : 1539419045607,
+          "duration" : 13252
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

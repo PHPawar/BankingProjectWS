@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;BankingProject/test_specs/customerSearch.js&apos; to &apos;customerSearch_spec.js&apos;" description="Rename resource &apos;customerSearch.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="test_specs/customerSearch.js" name="customerSearch_spec.js" stamp="1535264989992" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;mail.js&apos; to &apos;conf&apos;" description="Move &apos;mail.js&apos; to &apos;conf&apos;" destination="conf" element1="mail.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1535286408230" updateReferences="true"/>
+</session>

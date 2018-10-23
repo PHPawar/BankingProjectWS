@@ -1,0 +1,44 @@
+{
+  "uid" : "3283b105b64e4e0a",
+  "name" : "Naviagate to Bank Manager",
+  "title" : "Naviagate to Bank Manager",
+  "time" : {
+    "start" : 1535286330218,
+    "stop" : 1535286338222,
+    "duration" : 8004
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "fca2b6413f72a280",
+    "name" : "Login As a Bank Manager",
+    "title" : "Login As a Bank Manager"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "92d46935-bb9d-482b-8221-f3ba67f6abc7-attachment.png",
+    "type" : "image/png",
+    "size" : 32566,
+    "uid" : "6679a7411473aacb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login As a Bank Manager"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login As a Bank Manager"
+  } ],
+  "parameters" : [ ]
+}
