@@ -10,7 +10,7 @@ exports.config = {
 
 	framework : 'jasmine2',
 
-	 specs: ['../test_specs/bankManager_spec.js', '../test_specs/addCustomerInfo.js'],
+	 specs: ['../test_specs/customerLogin_spec.js'],
 
 	/*suites : {
 
