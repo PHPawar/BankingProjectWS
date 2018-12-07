@@ -16,8 +16,10 @@ describe("Adding customer information", function() {
 			var alertText= text;
 			expect(alertText).toContain("Customer added successfully with customer id");
 		});	
+	
 		closeAlert();
 		logger.log('info', 'Adding customer');
+		
 	});
 					
 	});

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1543674513862" stop="1543674581760">
+	<name>Adding customer information</name>
+	<title>Adding customer information</title>
+	<test-cases>
+		<test-case start="1543674513862" stop="1543674581562" status="failed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By(xpath, //button[@ng-class=&apos;btnClass1&apos;][contains(text(),&apos;Add Customer&apos;)])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, //button[@ng-class=&apos;btnClass1&apos;][contains(text(),&apos;Add Customer&apos;)])
+    at elementArrayFinder.getWebElements.then (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at addCustomer.gotoAddCustomer (C:\Users\Prashant\BankingProjectWS\BankingProject\pages\addCustomer.js:17:16)
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:12:11)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it(&quot;Adding customer&quot;) in control flow
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:11:2
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:25:22
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:20:20
+    at Suite.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:9:2)
+    at addSpecsToSuite (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:8:1)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1543674581562" stop="1543674581593" status="failed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)</message>
+				<stack-trace>NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Protractor.waitForAngular() - Locator: By(xpath, //button[@ng-class=&apos;btnClass1&apos;][contains(text(),&apos;Add Customer&apos;)])
+    at Driver.schedule (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at &lt;anonymous&gt;
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at addCustomer.gotoAddCustomer (C:\Users\Prashant\BankingProjectWS\BankingProject\pages\addCustomer.js:17:16)
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:12:11)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it(&quot;Adding customer&quot;) in control flow
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:11:2
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:25:22
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:20:20
+    at Suite.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:9:2)
+    at addSpecsToSuite (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:8:1)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1543674581594" stop="1543674581694" status="failed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)</message>
+				<stack-trace>NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Protractor.waitForAngular() - Locator: By(xpath, //button[@ng-class=&apos;btnClass1&apos;][contains(text(),&apos;Add Customer&apos;)])
+    at Driver.schedule (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at &lt;anonymous&gt;
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at addCustomer.gotoAddCustomer (C:\Users\Prashant\BankingProjectWS\BankingProject\pages\addCustomer.js:17:16)
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:12:11)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it(&quot;Adding customer&quot;) in control flow
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:11:2
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:25:22
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:20:20
+    at Suite.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:9:2)
+    at addSpecsToSuite (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:8:1)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1543674581694" stop="1543674581759" status="failed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)</message>
+				<stack-trace>NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Protractor.waitForAngular() - Locator: By(xpath, //button[@ng-class=&apos;btnClass1&apos;][contains(text(),&apos;Add Customer&apos;)])
+    at Driver.schedule (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at &lt;anonymous&gt;
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at addCustomer.gotoAddCustomer (C:\Users\Prashant\BankingProjectWS\BankingProject\pages\addCustomer.js:17:16)
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:12:11)
+    at C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it(&quot;Adding customer&quot;) in control flow
+    at UserContext.&lt;anonymous&gt; (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:11:2
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:25:22
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\Prashant\BankingProjectWS\BankingProject\node_modules\jasmine-data-provider\src\index.js:20:20
+    at Suite.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:9:2)
+    at addSpecsToSuite (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\test_specs\addCustomerInfo.js:8:1)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

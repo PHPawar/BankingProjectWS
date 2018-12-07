@@ -3,16 +3,16 @@ exports.config = {
 	directConnect : true,
 
 	// Capabilities to be passed to the webdriver instance.
-	capabilities : {
-		browserName : 'chrome',
-
-	},
+	multicapabilities : [
+		{browserName : 'chrome'},
+		{browserName : 'firefox'},
+		],
 
 	framework : 'jasmine2',
 
-	specs: ['../test_specs/noangular1.js'],
+	// specs: ['../test_specs/customerLogin_spec.js'],
 
-	/*suites : {
+	suites : {
 
 		bankManagerLogin : [ '../test_specs/bankManager_spec.js' ],
 		custSearch : [ '../test_specs/customerSearch_spec.js' ],
@@ -26,7 +26,7 @@ exports.config = {
 		selectCust : [ '../test_specs/selectCustomer_spec.js' ],
 				
 
-	},*/
+	},
 
 	// Options to be passed to Jasmine.
 	jasmineNodeOpts : {

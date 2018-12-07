@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1544167794482" stop="1544167799232">
+	<name>OPening customer account</name>
+	<title>OPening customer account</title>
+	<test-cases>
+		<test-case start="1544167794482" stop="1544167799232" status="passed">
+			<name>Open Customer Account</name>
+			<title>Open Customer Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d5cdcfc1-3589-49b2-894c-7f1ed2a1b0a0-attachment.png" type="image/png" size="22031"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

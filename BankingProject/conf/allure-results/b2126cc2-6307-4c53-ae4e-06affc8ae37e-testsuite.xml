@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1543675172902" stop="1543675180141">
+	<name>Login As a Bank Manager</name>
+	<title>Login As a Bank Manager</title>
+	<test-cases>
+		<test-case start="1543675172903" stop="1543675180140" status="passed">
+			<name>Naviagate to Bank Manager</name>
+			<title>Naviagate to Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="db6e75ea-5bdb-4862-b096-b8edf2a1b2d9-attachment.png" type="image/png" size="12714"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

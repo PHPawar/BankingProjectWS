@@ -9,6 +9,7 @@ describe("Login as Customer", function(){
 		homePage.loginAsCustomer();
 		browser.sleep(3000);
 		logger.log('info', 'Login as customer');
+		
 						
 	});
 		

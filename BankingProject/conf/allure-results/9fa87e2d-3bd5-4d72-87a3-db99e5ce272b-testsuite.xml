@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1543738641150" stop="1543738642706">
+	<name>Testing demo</name>
+	<title>Testing demo</title>
+	<test-cases>
+		<test-case start="1543738641150" stop="1543738642706" status="failed">
+			<name>encountered a declaration exception</name>
+			<title>encountered a declaration exception</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="470b4536-7b03-430c-a5f3-2b99af3114d9-attachment.png" type="image/png" size="4687"/>
+			</attachments>
+			<failure>
+				<message>ReferenceError: before is not defined</message>
+				<stack-trace>ReferenceError: before is not defined
+    at Suite.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\rough\testexample.js:8:2)
+    at addSpecsToSuite (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Prashant\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.&lt;anonymous&gt; (C:\Users\Prashant\BankingProjectWS\BankingProject\rough\testexample.js:1:63)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

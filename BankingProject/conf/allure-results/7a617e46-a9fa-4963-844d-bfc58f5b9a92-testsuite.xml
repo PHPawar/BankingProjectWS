@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1543738720509" stop="1543738722842">
+	<name>Testing demo</name>
+	<title>Testing demo</title>
+	<test-cases>
+		<test-case start="1543738721699" stop="1543738722151" status="passed">
+			<name>test case 1</name>
+			<title>test case 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bb43533e-1f7d-49e9-8ddc-85a4fcf31e96-attachment.png" type="image/png" size="4687"/>
+			</attachments>
+		</test-case>
+		<test-case start="1543738722151" stop="1543738722554" status="passed">
+			<name>test case 2</name>
+			<title>test case 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a49ad422-c00a-43eb-9dd9-09027bbb286e-attachment.png" type="image/png" size="4687"/>
+			</attachments>
+		</test-case>
+		<test-case start="1543738722554" stop="1543738722842" status="passed">
+			<name>test case 3</name>
+			<title>test case 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3ebed143-5e35-4ba0-ba7e-59f3f76cee57-attachment.png" type="image/png" size="4687"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

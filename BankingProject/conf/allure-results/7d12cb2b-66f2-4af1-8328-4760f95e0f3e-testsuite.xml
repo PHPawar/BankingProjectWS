@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1543924712029" stop="1543924717622">
+	<name>Adding customer information</name>
+	<title>Adding customer information</title>
+	<test-cases>
+		<test-case start="1543924712029" stop="1543924714626" status="passed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e3b84b6d-efea-43ae-b075-1fee2c847f6d-attachment.png" type="image/png" size="34446"/>
+			</attachments>
+		</test-case>
+		<test-case start="1543924714626" stop="1543924715829" status="passed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8091a969-187c-4dad-9697-f493feb4b2a3-attachment.png" type="image/png" size="42588"/>
+			</attachments>
+		</test-case>
+		<test-case start="1543924715829" stop="1543924716724" status="passed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27e946ae-8c28-4692-9cb6-ba617d01ebde-attachment.png" type="image/png" size="42588"/>
+			</attachments>
+		</test-case>
+		<test-case start="1543924716724" stop="1543924717621" status="passed">
+			<name>Adding customer</name>
+			<title>Adding customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ba52380b-3306-48bc-a079-f00edae6244f-attachment.png" type="image/png" size="42588"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

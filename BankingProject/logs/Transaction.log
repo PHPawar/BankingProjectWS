@@ -1,9 +1,73 @@
-{"level":"info","message":"Login as Bank Manager","timestamp":"2018-10-13T08:14:23.454Z"}
-{"level":"info","message":"Customer is deleted","timestamp":"2018-10-13T08:15:07.694Z"}
-{"level":"info","message":"Login as customer","timestamp":"2018-10-13T08:16:54.261Z"}
-{"level":"info","message":"Adding customer","timestamp":"2018-10-13T08:17:09.245Z"}
-{"level":"info","message":"Adding customer","timestamp":"2018-10-13T08:18:49.723Z"}
-{"level":"info","message":"Adding customer","timestamp":"2018-10-13T08:20:30.891Z"}
-{"level":"info","message":"Adding customer","timestamp":"2018-10-13T08:22:11.651Z"}
-{"level":"info","message":"Open Customer Account","timestamp":"2018-10-13T08:23:52.358Z"}
-{"level":"info","message":"Validating customer","timestamp":"2018-10-13T08:24:05.614Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-01T14:26:35.008Z"}
+{"level":"info","message":"Customer is deleted","timestamp":"2018-12-01T14:26:43.249Z"}
+{"level":"info","message":"Login as customer","timestamp":"2018-12-01T14:28:26.695Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:28:33.870Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:29:41.567Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:29:41.596Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:29:41.704Z"}
+{"level":"info","message":"Open Customer Account","timestamp":"2018-12-01T14:29:41.773Z"}
+{"level":"info","message":"Validating customer","timestamp":"2018-12-01T14:29:41.812Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-01T14:30:13.615Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:30:19.435Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:30:19.464Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:30:19.494Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:30:19.517Z"}
+{"level":"info","message":"Open Customer Account","timestamp":"2018-12-01T14:30:19.548Z"}
+{"level":"info","message":"Customer is deleted","timestamp":"2018-12-01T14:30:19.581Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-01T14:30:50.387Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:36.500Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:37.094Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:37.406Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:37.730Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:48.947Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:49.406Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:49.700Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:31:50.051Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:32:10.817Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:32:12.002Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:32:12.307Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:32:12.616Z"}
+{"level":"info","message":"Login as customer","timestamp":"2018-12-01T14:32:38.187Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:32:46.458Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:33:14.526Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:33:14.573Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:33:14.622Z"}
+{"level":"info","message":"Login as customer","timestamp":"2018-12-01T14:36:07.030Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:36:23.501Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:36:30.945Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:36:30.988Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:36:31.035Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-01T14:39:34.120Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:39:40.150Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:39:46.401Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:39:47.410Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-01T14:39:48.393Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-04T11:53:09.293Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:53:19.316Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:53:21.031Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:53:21.796Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:53:22.825Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-04T11:54:18.551Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:54:23.626Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:54:24.850Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:54:25.603Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:54:26.492Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-04T11:56:03.210Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:56:08.117Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:56:11.262Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:56:12.138Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:56:13.490Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-04T11:58:26.171Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:58:32.032Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:58:34.630Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:58:35.841Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-04T11:58:36.732Z"}
+{"level":"info","message":"Login as customer","timestamp":"2018-12-07T07:29:09.289Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-07T07:29:42.012Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-07T07:29:44.378Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-07T07:29:51.698Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-07T07:29:52.693Z"}
+{"level":"info","message":"Adding customer","timestamp":"2018-12-07T07:29:53.562Z"}
+{"level":"info","message":"Open Customer Account","timestamp":"2018-12-07T07:29:54.483Z"}
+{"level":"info","message":"Customer is deleted","timestamp":"2018-12-07T07:29:59.239Z"}
+{"level":"info","message":"Login as customer","timestamp":"2018-12-07T07:58:40.319Z"}
