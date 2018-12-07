@@ -10,9 +10,9 @@ exports.config = {
 
 	framework : 'jasmine2',
 
-	// specs: ['../test_specs/customerLogin_spec.js'],
+	 specs: ['../test_specs/bankManager_spec.js', '../test_specs/addCustomerInfo.js'],
 
-	suites : {
+	/*suites : {
 
 		bankManagerLogin : [ '../test_specs/bankManager_spec.js' ],
 		custSearch : [ '../test_specs/customerSearch_spec.js' ],
@@ -26,7 +26,7 @@ exports.config = {
 		selectCust : [ '../test_specs/selectCustomer_spec.js' ],
 				
 
-	},
+	},*/
 
 	// Options to be passed to Jasmine.
 	jasmineNodeOpts : {
