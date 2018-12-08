@@ -5,7 +5,7 @@ var custSearch = require('../pages/customerSearch.js');
 describe("Search for the customer", function() {
 	it("Search for the customer", function() {
 	custSearch.navigateToCustomer();
-	custSearch.searchCustomer("Prashant");
+	custSearch.searchCustomer("Harry Potter");
 	custSearch.custDelete();
 	logger.log('info', 'Customer is deleted');
 	

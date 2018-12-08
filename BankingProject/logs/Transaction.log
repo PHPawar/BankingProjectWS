@@ -71,3 +71,4 @@
 {"level":"info","message":"Open Customer Account","timestamp":"2018-12-07T07:29:54.483Z"}
 {"level":"info","message":"Customer is deleted","timestamp":"2018-12-07T07:29:59.239Z"}
 {"level":"info","message":"Login as customer","timestamp":"2018-12-07T07:58:40.319Z"}
+{"level":"info","message":"Login as Bank Manager","timestamp":"2018-12-08T09:34:56.777Z"}

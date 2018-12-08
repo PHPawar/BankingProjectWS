@@ -8,7 +8,7 @@ describe("Login As a Bank Manager", function(){
 		browser.get(bankapp.testurl);
 		expect(browser.getTitle()).toEqual("Protractor practice website - Banking App");
 		homePage.loginAsManager();
-	    logger.log('info', 'Login as Bank Manager');
+		logger.log('info', 'Login as Bank Manager');
 				
 	});
 	
