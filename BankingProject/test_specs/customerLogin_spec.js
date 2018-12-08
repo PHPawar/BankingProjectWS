@@ -12,12 +12,5 @@ describe("Login as Customer", function(){
 		
 						
 	});
-	it("Search for the customer", function() {
-		//custSearch.navigateToCustomer();
-		custSearch.searchCustomer("Harry Potter");
-		//custSearch.custDelete();
-		logger.log('info', 'Customer is deleted');
-		
-		});
-		
+	
 });
