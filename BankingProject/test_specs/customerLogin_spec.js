@@ -4,6 +4,7 @@ var logger = require('../util/log.js');
 
 describe("Login as Customer", function(){
 	it("Customer Login Test", function(){
+		// test for webhook
 		browser.get(bankapp.testurl);
 		expect(browser.getTitle()).toEqual("Protractor practice website - Banking App");
 		homePage.loginAsCustomer();
